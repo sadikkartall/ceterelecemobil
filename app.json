@@ -1,26 +1,47 @@
 {
   "expo": {
     "name": "ceterelecemobil",
+    "owner": "sdkkr",
     "slug": "ceterelecemobil",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "ceterelecemobil",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ceterelece.mobile",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.424785111488-h1ov3pn38vls2rdq66ihcjqugvhgf61o"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ceterelece.mobile"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyD5h-Ezu83f1KqhVhUjJMhClTXBdBLup20",
+        "authDomain": "ceterelecenet.firebaseapp.com",
+        "projectId": "ceterelecenet",
+        "storageBucket": "ceterelecenet.appspot.com",
+        "messagingSenderId": "424785111488",
+        "appId": "1:424785111488:web:c997563cefd7b65918c025"
+      },
+      "eas": {
+        "projectId": "ceterelece-mobile"
+      }
     },
     "plugins": [
       "expo-router",

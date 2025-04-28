@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# Ceterelece Mobil
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ceterelece web projesinin React Native ile yazılmış mobil versiyonudur. Android ve iOS platformlarında çalışmak üzere tasarlanmıştır.
 
-## Get started
+## Özellikler
 
-1. Install dependencies
+- Kullanıcı kimlik doğrulama (Giriş, Kayıt, Şifre sıfırlama)
+- Gönderi oluşturma, görüntüleme
+- Gönderi beğenme, yorum yapma
+- Profil yönetimi
+- Koyu/Açık tema desteği
 
-   ```bash
-   npm install
-   ```
+## Teknolojiler
 
-2. Start the app
+- React Native
+- Expo
+- Firebase (Firestore, Authentication)
+- React Navigation
+- Expo Router
 
-   ```bash
-    npx expo start
-   ```
+## Kurulum
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Bu projeyi bilgisayarınıza klonlayın:
 ```bash
-npm run reset-project
+git clone https://github.com/kullaniciadi/ceterelecemobil.git
+cd ceterelecemobil
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Gerekli paketleri yükleyin:
+```bash
+npm install
+```
 
-## Learn more
+3. Firebase yapılandırmasını düzenleyin:
+- firebase.js dosyasında, kendi Firebase yapılandırma bilgilerinizi ekleyin.
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Uygulamayı çalıştırın:
+```bash
+npm start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Kullanım
 
-## Join the community
+- Uygulamayı ilk çalıştırdığınızda, kayıt ekranı açılacaktır.
+- Kayıt olduktan veya giriş yaptıktan sonra, ana sayfada gönderileri görebilirsiniz.
+- Keşfet sayfasında kategorilere göre içerik keşfedebilirsiniz.
+- Oluştur sayfasında yeni gönderiler oluşturabilirsiniz.
+- Profil sayfasında hesap ayarlarınızı düzenleyebilirsiniz.
 
-Join our community of developers creating universal apps.
+## Web Versiyonu
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Bu uygulama, aynı zamanda web tarayıcılarında çalışan bir React web uygulamasına sahiptir. Web uygulaması, cetereleceweb klasöründe bulunmaktadır.
+
+## İletişim
+
+Sorularınız veya geri bildirimleriniz için:
+- Email: ornek@email.com
