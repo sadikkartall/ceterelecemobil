@@ -14,7 +14,7 @@
       "bundleIdentifier": "com.ceterelece.mobile",
       "config": {
         "googleSignIn": {
-          "reservedClientId": "com.googleusercontent.apps.424785111488-h1ov3pn38vls2rdq66ihcjqugvhgf61o"
+          "reservedClientId": "GOOGLE_RESERVED_CLIENT_ID"
         }
       }
     },

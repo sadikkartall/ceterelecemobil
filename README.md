@@ -22,7 +22,7 @@ Ceterelece web projesinin React Native ile yazılmış mobil versiyonudur. Andro
 
 1. Bu projeyi bilgisayarınıza klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/ceterelecemobil.git
+git clone https://github.com/sadikkartall/ceterelecemobil.git
 cd ceterelecemobil
 ```
 
@@ -31,8 +31,9 @@ cd ceterelecemobil
 npm install
 ```
 
-3. Firebase yapılandırmasını düzenleyin:
-- firebase.js dosyasında, kendi Firebase yapılandırma bilgilerinizi ekleyin.
+3. Çevre değişkenlerini ayarlayın:
+- `.env-example` dosyasını `.env` olarak kopyalayın
+- `.env` dosyasındaki değişkenleri kendi Firebase projenize uygun olarak doldurun
 
 4. Uygulamayı çalıştırın:
 ```bash
@@ -46,6 +47,13 @@ npm start
 - Keşfet sayfasında kategorilere göre içerik keşfedebilirsiniz.
 - Oluştur sayfasında yeni gönderiler oluşturabilirsiniz.
 - Profil sayfasında hesap ayarlarınızı düzenleyebilirsiniz.
+
+## Güvenlik
+
+Bu proje, Firebase kimlik bilgilerini ve diğer hassas bilgileri `.env` dosyasında saklar. Lütfen:
+- `.env` dosyasını asla GitHub'a pushlamayın
+- Örnek olarak `.env-example` dosyasını kullanın
+- Uygulama dağıtımından önce yapılandırma bilgilerinizi gözden geçirin
 
 ## Web Versiyonu
 
