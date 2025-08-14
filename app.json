@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ceterelecemobil",
+    "slug": "ceterelecemobil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "newArchEnabled": true,
+    "entryPoint": "index.ts",
+    "scheme": "ceterelecemobil",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ceterelece.ceterelecemobil",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Bu uygulama profil fotoğrafı çekmek için kameraya erişim gerektirir.",
+        "NSPhotoLibraryUsageDescription": "Bu uygulama profil fotoğrafı seçmek için fotoğraf galerisine erişim gerektirir."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ceterelece.ceterelecemobil",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
